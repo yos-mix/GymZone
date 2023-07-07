@@ -1,0 +1,246 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+nav{
+     padding: 30px 50px;
+     margin-bottom: 130px;
+}
+.left-nav{
+     width: 50%;
+     float: left;
+     cursor: pointer;
+     position: fixed;
+}
+.left-nav p{
+     font-size: 25px;
+     font-weight: 800;
+     letter-spacing: .26em;
+}
+.left-nav span{
+     background-color: #000;
+     color: #fff;
+     padding: 7px 3px 0 6px;
+}
+.right-nav{
+     width: 50%;
+     float: right;
+     text-align: right;
+}
+.right-nav ul li{
+     display: inline-block;
+}
+.right-nav ul li a{
+     padding-left: 65px;
+     font-size: 18px;
+     color: black;
+     text-decoration: none;
+     letter-spacing: .1em;
+}
+.right-nav ul li a:hover{
+     color: red;
+     transition: .3s;
+}
+/* content */
+.content{
+     padding: 50px 250px;
+     justify-content: space-between;
+}
+.left-content{
+     width: 40%;
+     float: left;
+}
+.left-content .login{
+     border: 1px solid black;
+}
+.left-content .login form{
+     padding: 30px;
+}
+.left-content .login form h4{
+     font-size: 30px;
+     text-align: center;
+     letter-spacing: .2em;
+}
+.left-content .login form hr{
+     margin-bottom: 30px;
+     width: 90%;
+     height: 6px;
+     background-color: #000;
+     border: none;
+}
+.left-content .login form h6{
+     font-size: 20px;
+     letter-spacing: .1em;
+}
+.left-content .login form input{
+     width: 100%;
+     padding: 10px;
+     outline: none;
+     border-radius: 15px;
+     margin-bottom: 30px;
+     border: 3px solid #F6BF00;
+}
+.left-content .login form button{
+     font-size: 15px;
+     letter-spacing: .3em;
+     font-weight: 800;
+     padding: 7px 25px;
+     border-radius: 50px;
+     color: #000;
+     background-color: #F6BF00;
+     border: 2px solid #F6BF00;
+}
+.left-content .login form button:hover{
+     border: 2px solid #F6BF00;
+     color: #000;
+     background-color: #fff;
+     transition: .3s;
+}
+.right-content{
+     width: 60%;
+     float: right;
+     text-align: right;
+}
+.right-content img{
+     width: 350px;
+     margin-top: 60px;
+}
+/* subscription */
+.subscription{
+     margin-top: 500px;
+     padding: 0 190px;
+}
+.row{
+     margin-top: 60px;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+}
+.column{
+     width: 30%;
+     text-align: center;
+     margin-bottom: 150px;
+     border-radius: 10px;
+     background-color: black;
+     color: #fff;
+}
+.column .card h2{
+     font-size: 30px;
+     padding-top: 17px;
+     letter-spacing: .2em;
+}
+.column .card hr{
+     margin-bottom: 20px;
+     width: 70%;
+}
+.column .card p{
+     font-size: 17px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     letter-spacing: .09em;
+     line-height: 30px;
+     margin-bottom: 30px;    
+}
+.column .card h1{
+     font-size: 40px;
+     letter-spacing: .2em;
+}
+.column button{
+     padding: 10px 30px;
+     margin-bottom: 20px;
+     background-color: #fff;
+     border: 1px solid #fff;
+     border-radius: 20px;
+     font-size: 15px;
+     letter-spacing: .1em;
+}
+.column button:hover{
+     background-color: #F6BF00;
+     color: #000;
+     border: 1px solid #F6BF00;
+     transition: .3s;
+}
+/* FOOTER */
+.footer{
+     padding: 10px 50px;
+     height: 32vh;
+     background-color: #937100;
+     color: #fff;
+}
+.left-footer{
+     width: 30%;
+     float: left;
+     height: auto;
+}
+.left-footer h2{
+     letter-spacing: .3em;
+}
+.left-footer ul li{
+     list-style: none;
+     font-size: 17px;
+     padding-left: 30px;
+     cursor: pointer;
+     line-height: 50px;
+}
+.left-footer ul li:hover{
+     color: #F6BF00;
+     transition: .3s;
+}
+.bi{
+     margin-right: 20px;
+}
+.right-footer{
+     width: 70%;
+     float: right;
+     height: auto;
+}
+.right-footer1{
+     width: 40%;
+     float: left;
+}
+.right-footer1 img{
+     width: 100px;
+     margin-left: 90px;
+}
+.right-footer2{
+     width: 60%;
+     float: right;
+}
+.right-footer2 h2{
+     letter-spacing: .2em;
+}
+.right-footer2{
+     padding-left: 60px;
+}
+.right-footer2 form h3{
+     font-size: 20px;
+}
+.right-footer2 input{
+     padding: 10px;
+     border: 1px solid black;
+     outline: none;
+     border-top-right-radius: 10px;
+     border-top-left-radius: 10px;
+     margin-bottom: 5px;
+}
+.right-footer2 textarea{
+     padding: 10px;
+     border-bottom-right-radius: 10px;
+     border-bottom-left-radius: 10px;
+     border-top-right-radius: 10px;
+}
+.right-footer2 button{
+     padding: 10px 30px;
+     font-size: 12px;
+     letter-spacing: .2em;
+     background-color: #F6BF00;
+     color: black;
+     border: 1px solid black;
+     border-radius: 20px;
+}
+.right-footer2 button:hover{
+     color: #000;
+     background-color: #fff;
+     border: 1px solid black;
+     transition: .3s;
+}
